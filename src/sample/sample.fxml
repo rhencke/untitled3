@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.control.TreeTableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <TreeTableView id="goose" minHeight="300" minWidth="400" BorderPane.alignment="CENTER">
+        <columns>
+          <TreeTableColumn style="-fx-font-family: Consolas;" text="Commit ID" />
+          <TreeTableColumn text="Description" />
+        </columns>
+      </TreeTableView>
+   </center>
+</BorderPane>
